@@ -22,7 +22,6 @@ Inspiration from: https://gist.github.com/brianonn/455bce106bd86c9587d223acfbbe9
 Takes a 3.5 minute process for 17K row VTT to 3.5 seconds
 
 https://github.com/joegasper
-https://gist.github.com/joegasper/e862f71b5a2658fae21fd36f7231b33c
 #>
 
 function ConvertTo-SRT {
@@ -33,7 +32,7 @@ function ConvertTo-SRT {
             Position = 0,
             ValueFromPipeline,
             ValueFromPipelineByPropertyName = $true,
-            HelpMessage = "Path to VTT file.")]
+            HelpMessage = 'Path to VTT file.')]
         [Alias("PSPath")]
         [ValidateNotNullOrEmpty()]
         [Object[]]$Path,
@@ -41,7 +40,7 @@ function ConvertTo-SRT {
         [Parameter(Mandatory = $false,
             Position = 1,
             ValueFromPipelineByPropertyName = $true,
-            HelpMessage = "Path to output SRT file.")]
+            HelpMessage = 'Path to output SRT file.')]
         [string]$OutFile
     )
 
