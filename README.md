@@ -13,4 +13,4 @@ Simplified script for conversion to executable (using WIN-PS2EXE)
 Executable version that supports multi-file drag-n-drop.
 
 ---
-subtitle transcript caption Microsoft-Stream Mediasite YouTube
+subtitle transcript caption Microsoft-Stream Mediasite YouTube convert vtt srt webvtt subrip
